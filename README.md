@@ -1,4 +1,3 @@
-# PDF-Q-A-App-with-LLMs-
 # 📄 PDF Question Answering System using LLaMA3, FAISS & LangChain
 
 This project is a **Streamlit-based web app** that allows users to upload a PDF file and ask **natural language questions** about its content. It uses **LangChain**, **FAISS**, **HuggingFace Embeddings**, and **Ollama’s LLaMA3 model** to provide contextual answers with references.
@@ -29,7 +28,7 @@ This project is a **Streamlit-based web app** that allows users to upload a PDF 
 
 ## 📁 Project Structure
 
-```bash
+
 .
 ├── app.py               # Streamlit front-end app
 ├── backend.py           # Core PDF processing & LLM logic
@@ -37,34 +36,23 @@ This project is a **Streamlit-based web app** that allows users to upload a PDF 
 └── app.log              # Logs for debugging and status
 ⚙️ Installation
 1. Clone the repository
-bash
-Copy
-Edit
 git clone https://github.com/your-username/pdf-qa-app.git
 cd pdf-qa-app
+
 2. Create & activate a virtual environment (recommended)
-bash
-Copy
-Edit
 python -m venv venv
 source venv/bin/activate   # On Windows: venv\Scripts\activate
+
 3. Install dependencies
-bash
-Copy
-Edit
 pip install -r requirements.txt
+
 4. Start Ollama with LLaMA3
 Make sure you have Ollama installed and the LLaMA3 model pulled:
-
-bash
-Copy
-Edit
 ollama run llama3
+
 5. Run the app
-bash
-Copy
-Edit
 streamlit run app.py
+
 🧪 How It Works
 PDF Upload: You upload a PDF document.
 
@@ -95,3 +83,6 @@ HuggingFace Transformers
 
 Streamlit
 
+# output look like 
+
+<img width="959" height="884" alt="image" src="https://github.com/user-attachments/assets/fb0db6c3-0080-45c0-bb54-070bf86fb120" />
